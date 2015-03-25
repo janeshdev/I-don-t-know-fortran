@@ -1,6 +1,8 @@
 # fortran-useful-functions
 This repository will contain chunks of fortran code that will be useful while writing codes.
 
+Here are some useful functions / pieces of code that you would find helpful while using these commands on your projects. Please report any issues / comments on `issues` section of this repository. 
+
 ## Functions
 [Check if file exists]()
 
