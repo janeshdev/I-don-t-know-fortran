@@ -12,3 +12,9 @@ This repository will contain chunks of fortran code that will be useful while wr
       ELSE
 
       ENDIF
+
+## Conditional debugging in Fortran 
+
+While debugging the code, we might be interested to debug line by line when certain conditions is met. To do that in visual studio, we need to first create a break point and right click on the break point. The following options will pop up: 
+
+![Breakpoint Options](images/breakpoint-options-png)
