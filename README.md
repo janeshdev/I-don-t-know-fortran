@@ -24,3 +24,14 @@ While debugging the code, we might be interested to debug line by line when cert
 Then we can click on `Condition` and then insert the condition as if we were writing an `if` statement. 
 
 ![Breakpoint Condition](https://github.com/janeshdev/I-don-t-know-fortran/blob/master/images/breakpoint-condition.png)
+
+### Append files in Fortran 
+
+To do the appends in fortran we could do something like: 
+
+	OPEN(95,FILE=OUTDIR//'*.OUT',POSITION='APPEND',STATUS='OLD',  FORM='BINARY')
+	! Some code 
+	CLOSE(95) 
+
+In the above code `95` is just used arbitrarily. 
+
